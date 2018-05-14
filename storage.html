@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Storage</title>
+	<link rel="stylesheet" href="css/storage/storage.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+	<!--smartphones should not scale -->
+	<meta name="viewport" content="initial-scale=1">
+	<!--Largest screens. -->
+	<link rel="stylesheet" media="screen and (min-width: 2140px) and (max-width: 8000px)" href="css/navbarl.css">
+	<link rel="stylesheet" media="screen and (min-width: 2140px) and (max-width: 8000px)" href="css/storage/large.css">
+	<!--Medium screens. Laptops etc -->
+	<link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1440px)" href="css/storage/medium.css">
+	<!--Mobile. -->
+	<link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 768px)" href="css/storage/small.css">
+	<link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 768px)" href="css/navbarm.css">
+	<style>
+	#navbar {background-color:rgba(123,226,136,0.3);}
+	.card {background-color:rgba(78,109,139,0.3);}
+	</style>
+ </head>
+<body class="w3-animate-opacity">
+	<div id="navbar" class="navbar">
+		<a class="navlinks" href="transitions/trans2.html">Home</a> <p class="pipe">|</p> <a class="navlinks mobilelink" href="transitions/trans3.html">RAM</a> <p class="pipe">|</p> <a class="navlinks mobilelink" href="transitions/trans1.html">GPU</a> <p class="pipe">|</p> <a class="navlinks mobilelink" href="transitions/trans6.html">CPU</a> <p class="pipe">|</p> <a class="navlinks mobilelink" href="transitions/trans7.html">Motherboard</a>
+		<div id="dropdowncont" class="w3-dropdown-click">
+		<button class="dropdownbutton" style="background-color: rgba(0,0,0,0); border: 1px solid white; border-right-style:none; border-top-style: none; border-bottom-style: none;" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+		</button>
+			<div id="dropdown" class="w3-dropdown-content" style="width: 100%; text-align: center;">
+				<a href="transitions/trans3.html" class="dropdownlink w3-button">RAM</a>
+				<a href="transitions/trans1.html" class="dropdownlink w3-button">GPU</a>
+				<a href="transitions/trans6.html" class="dropdownlink w3-button">CPU</a>
+				<a href="transitions/trans7.html" class="dropdownlink w3-button">Motherboard</a>
+			</div>
+		</div>
+	</div>
+	
+    <div class="title">
+		<p>STORAGE</p>
+	</div>
+    <h2 class="cardstitle">TYPES</h2>
+    <div class="cardbox">
+        <div class="card">
+			<h3>Rotational Storage</h3>
+			<ul class="list">
+                <li>Old technology. Invented in 1954 by IBM.</li>
+                <li>Stores data on magnetic platters or disks.</li>
+                <li>The platters or disks must be spun at high speeds and read using an actuator arm seeking over the spinning disks.</li>
+                <li>Inefficient in modern computing in regards to power use and data-transfer speed in comparison to Solid State Drives.</li>
+                <li>Very fragile and susceptible to magnetic damage</li>
+            </ul>
+			<img class="hdd cardimg" src="imgs/nocover.jpg" alt="Coverless HDD">
+		</div>
+		<div class="card">
+			<h3>Solid State Storage</h3>
+			 <ul class="list">
+				<li>Solid State Disks have existed since the 1970s.</li>
+                <li>SSDs have no moving parts.</li>
+                <li>SSDs are much faster than rotational hard disks because data does not get fragmented and do not rely on spinning disks and seeking with an actuator arm to read data. Data can be pulled from a sector at any time with very little latency.</li>
+                <li>SSDs can withstand a harsher environment, are not as vulnerable to magnetic fields, and are very resistant to shock, vibration, and movement.</li>
+                <li>Some downsides of SSDs are that data stored on SSDs that are not used for long periods of time (up to 10 years) can be lost; SSDs are not recommended for archival storage. HDDs can retain their data for a very long amount of time if stored in a climate controlled and clean environment.</li>
+				<li>The transistors used in SSDs can only be written to a finite amount of times. SSDs are not recommended for constant writing of data.</li>
+            </ul>
+			<img class="ssd1 cardimg" src="imgs/pcie-ssd.jpg" alt="PCI-express SSD">
+			<img class="ssd2 cardimg" src="imgs/ssd.jpg" alt="SATA SSD">
+		</div>
+    </div>
+	<div class="learnmorebox">
+	<a class="w3-hover-blue learnmore learnmore1" href="https://en.wikipedia.org/wiki/Hard_disk_drive">Learn more about rotational storage</a>
+	<a class="w3-hover-blue learnmore" href="https://en.wikipedia.org/wiki/Solid-state_drive">Learn more about solid state storage</a>
+	</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("dropdown");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>	
+</body>
+</html>

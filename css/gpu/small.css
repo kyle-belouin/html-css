@@ -1,0 +1,30 @@
+body{
+background: url("../../imgs/gpusplashportrait.jpg");
+}
+
+.title {
+	height: 800px;
+	font: bold 48px consolas, sans-serif;
+}
+
+.cardbox {
+	flex-direction: column;
+	margin: auto;
+}
+
+.amd {
+	padding: 0;
+}
+
+.card {
+	width: 95%;
+	margin: 5px;
+	margin: auto;
+	align-content: center;
+	padding-bottom: 5px;
+}
+
+.learnmore {
+	margin-top: 2%;
+	width: 100%;
+}

@@ -1,0 +1,37 @@
+body {
+	background: url("../../imgs/mbport.jpg")
+}
+
+.title {
+	height: 800px;
+	font: bold 48px consolas, sans-serif;
+}
+
+.cardbox {
+	flex-direction: column;
+	margin: auto;
+}
+
+.card {
+	width: 95%;
+	margin: 5px;
+	margin: auto;
+	align-content: center;
+	padding-bottom: 5px;
+}
+
+.mbimg{
+	height: 400px;
+}
+
+.cardimg {
+	height: 75px;
+}
+
+.explorecont {
+	width: 100%;
+}
+
+.explore {
+	width: 100%;
+}

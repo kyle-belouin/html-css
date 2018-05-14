@@ -1,0 +1,120 @@
+body {
+	background: url("../../imgs/mb2.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #043c04;
+    text-align: center;
+    color: rgba(220,253,49,0.8);
+    font-family: Times, sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	}
+	
+	.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font: bold 84px consolas, sans-serif;
+	text-shadow: 1px 1px 10px #000000, 0 0 1px #000000, 0 0 100px #ffffff;
+	color: #fff719;
+	height: 1080px;
+	}
+
+	a {
+	text-decoration: none;
+}
+
+	a:hover {
+	text-decoration: none;
+}
+
+.cores {
+	width: 95%;
+}
+
+.cardstitle {
+	text-shadow: 2px 2px 2px #000000;
+	font: bold 36px consolas, sans-serif;
+}
+
+.cardbox {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+.card {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 50%;
+	text-align: justify;
+	padding: 10px;
+	}
+	
+.list {
+	padding-left: 6px;
+	width: 100%;
+}
+
+.list2 {
+	text-align: center;
+	font-style: italic;
+}
+
+.cardimg {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin: auto;
+	height: 150px;
+	padding-top: 8px;
+}	
+
+
+li{
+	list-style-type: none;
+	text-align: justify;
+}
+
+.complistcontainer {
+	display: flex;
+}
+
+.complist {
+	width: 50%;
+}
+
+.explorecont {
+	margin-top: 8px;
+	padding-bottom: 100px;
+}
+
+.explore {
+	display: flex; 
+	align-content: center; 
+	justify-content: center;
+	margin: auto;
+	width: 50%;
+	font-style: bold;
+	color: rgba(220,253,49,1.0);
+}
+
+.video {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.video2 {
+	width: 80%;
+	height: 360px;
+	border-style: none;
+}
+

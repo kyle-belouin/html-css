@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Graphics Cards</title>
+	<link rel="stylesheet" href="css/gpu/gpu.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+	<!--smartphones should not scale -->
+	<meta name="viewport" content="initial-scale=1">
+	<!--Largest screens. -->
+	<link rel="stylesheet" media="screen and (min-width: 2140px) and (max-width: 8000px)" href="css/navbarl.css">
+	<link rel="stylesheet" media="screen and (min-width: 2140px) and (max-width: 8000px)" href="css/gpu/large.css">
+	<!--Medium screens. Laptops etc -->
+	<link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1440px)" href="css/gpu/medium.css">
+	<!--Mobile. -->
+	<link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 768px)" href="css/gpu/small.css">
+	<link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 768px)" href="css/navbarm.css">
+	<style>
+	#navbar {background-color:rgba(123,146,226,0.3);}
+	.navlinks {background-color:rgba(123,146,226,0.0);}
+	.card {background-color:rgba(78,139,81,0.3);}
+	.learnmore {background-color:rgba(84,96,129,0.3);}
+	</style>
+ </head>
+<body class="w3-animate-opacity">
+	<div id="navbar" class="navbar">
+		<a class="navlinks" href="transitions/trans2.html">Home</a> <p class="pipe">|</p> <a class="navlinks mobilelink" href="transitions/trans3.html">RAM</a> <p class="pipe">|</p> <a class="navlinks mobilelink" href="transitions/trans5.html">Storage</a> <p class="pipe">|</p> <a class="navlinks mobilelink" href="transitions/trans6.html">CPU</a> <p class="pipe">|</p> <a class="navlinks mobilelink" href="transitions/trans7.html">Motherboard</a>
+		<div id="dropdowncont" class="w3-dropdown-click">
+		<button class="dropdownbutton" style="background-color: rgba(0,0,0,0); border: 1px solid white; border-right-style:none; border-top-style: none; border-bottom-style: none;" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+		</button>
+			<div id="dropdown" class="w3-dropdown-content" style="width: 100%; text-align: center;">
+				<a href="transitions/trans3.html" class="dropdownlink w3-button">RAM</a>
+				<a href="transitions/trans5.html" class="dropdownlink w3-button">Storage</a>
+				<a href="transitions/trans6.html" class="dropdownlink w3-button">CPUs</a>
+				<a href="transitions/trans7.html" class="dropdownlink w3-button">Motherboard</a>
+			</div>
+		</div>
+	</div>
+	
+    <div class="title">
+		<p>GRAPHICAL PROCESSING UNITS<br>(GPU)</p>
+	</div>
+    <h2 class="cardstitle"> WHAT DOES A GPU DO?</h2>
+    <div class="cardbox">
+        <div class="card w3-hover-green">
+			<h3>Overview</h3>
+			<p> A Graphical Processing Unit or GPU is a dedicated piece of computer hardware that is designed to efficiently process certain types of calculations efficiently that are needed for rendering intense applications such as video games or rendering videos or 3D models.</p>
+			<img class="amd cardimg" src="imgs/radeon.jpg" alt="radeon">
+		</div>
+		<div class="card w3-hover-green">
+			<h3>Technical</h3>
+			<p>GPUs can use up to thousands of individual cores to process workloads efficiently whereas CPUs use (commonly) 4 to 8.</p>
+			<p>GPUs are designed to perform very specific tasks compared to CPUs</p>
+			<p>CPUs are responsible for a wider variety of tasks than a GPU. Because of this, they are limited to how fast and efficient they can be in comparison to a GPU.</p>
+        <img class="cardimg" src="imgs/cores.jpg" alt="gpucores">
+		</div>
+		<div class="card w3-hover-green">
+			<h3>Comparisons</h3>
+			<p class=p3>Most modern PC CPUs have integrated graphic chips that work together with the CPU in one physical housing. These integrated GPUs are not very efficient as they are just a part of a CPU and are not recommended for complex 3D applications or intense video games. Their intended function is for video output without a
+        dedicated GPU. They exist for convenience sake and work well in laptops and basic desktops where space is limited and cost is a considerable factor.</p>
+		<img class="cardimg" src="imgs/gpu-cores.jpg" alt="cores2">
+		</div>
+    </div>
+	<a class="w3-hover-gray learnmore" href="https://nvidia.com">Learn more</a>
+<script>
+function myFunction() {
+    var x = document.getElementById("dropdown");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>	
+</body>
+</html>

@@ -1,0 +1,87 @@
+body {
+	background: url("../../imgs/gpusplash.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: #043c04;
+    text-align: center;
+    color:#64cacf;
+    font-family: Times, sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	}
+	
+	.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font: bold 84px consolas, sans-serif;
+	text-shadow: 1px 1px 10px #000000, 0 0 1px #000000, 0 0 100px #ffffff;
+	color: #4e8b51;
+	height: 1080px;
+	}
+	
+	a {
+	text-decoration: none;
+}
+
+	a:hover {
+	text-decoration: none;
+}
+
+.cores {
+	width: 95%;
+}
+
+.cardstitle {
+	text-shadow: 2px 2px 2px #000000;
+	font: bold 36px consolas, sans-serif;
+}
+
+.cardbox {
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 25%;
+	text-align: justify;
+	padding: 10px;
+	margin-bottom: 100px;
+	}
+	
+.cardimg {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 95%;
+	margin: auto;
+	bottom: 0;
+}	
+
+.amd {
+	padding-top: 130px;
+}
+
+li{
+	list-style-type: none;
+	text-align: justify;
+}
+
+.learnmore {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 30%;
+	height: 50px;
+	margin-bottom: 100px;
+	justify-content: center;
+	align-content: center;
+	font: bold 18px calibri, sans-serif;
+	text-transform: uppercase;
+	padding: 0;
+}

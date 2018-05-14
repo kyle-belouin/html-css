@@ -1,0 +1,34 @@
+.title {
+	height: 800px;
+	font: bold 48px consolas, sans-serif;
+}
+
+.cardbox {
+	flex-direction: column;
+	margin: auto;
+}
+
+.amd {
+	padding: 0;
+}
+
+.card {
+	width: 95%;
+	margin: 5px;
+	margin: auto;
+	align-content: center;
+	padding-bottom: 5px;
+}
+
+.learnmorebox {
+	width: 90%;
+	margin: auto;
+	flex-direction: column;
+	}
+
+.learnmore {
+	margin-top: 2%;
+	width: 100%;
+	color: white;
+	margin-bottom: 0px;
+}

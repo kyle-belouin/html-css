@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>
+         RAM
+      </title>
+      <link rel="stylesheet" href="css/w3.css">
+      <meta name="viewport" content="initial-scale=1">
+      <style>
+         a {
+         text-decoration: none;
+         }
+      </style>
+   </head>
+   <body class="w3-green w3-animate-opacity">
+      <!--Navbar -->
+      <div class="w3-bar w3-blue w3-top">
+         <a href="transitions/trans4.html" class="w3-bar-item w3-button">Home</a>
+         <a href="transitions/trans6.html" class="w3-bar-item w3-button w3-hide-small">CPU</a>
+         <a href="transitions/trans1.html" class="w3-bar-item w3-button w3-hide-small">GPU</a>
+         <a href="transitions/trans5.html" class="w3-bar-item w3-button w3-hide-small">Storage</a>
+		 <a href="transitions/trans7.html" class="w3-bar-item w3-button w3-hide-small">Motherboard</a>
+         <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+      </div>
+      <div id="dropdown" style="margin-top: 38px;" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+         <a href="transitions/trans6.html" class="w3-bar-item w3-button">CPU</a>
+         <a href="transitions/trans1.html" class="w3-bar-item w3-button">GPU</a>
+         <a href="transitions/trans5.html" class="w3-bar-item w3-button">Storage</a>
+		 <a href="transitions/trans7.html" class="w3-bar-item w3-button">Motherboard</a>
+      </div>
+      <!--Splash -->
+      <div class="w3-display-container">
+         <img src="imgs/ramsplash.png" alt="RAM" style="width:100%;">
+         <div class="w3-display-middle w3-xxlarge w3-mobile w3-center w3-text-sand w3-animate-opacity w3-margin-top">RANDOM ACCESS MEMORY (RAM)
+		 <p class="w3-medium w3-mobile w3-padding-small">W3.CSS DEMONSTRATION</p>
+		 </div>
+		 </div>
+      <!--Content. -->
+      <div class="w3-section w3-margin-left w3-margin-right w3-padding w3-card-4 w3-light-gray">
+         <div class="w3-container w3-center w3-border-top">
+            <img class="w3-third w3-bottombar w3-padding-small w3-border-green" src="imgs/ram3.jpg" alt="RAM1">
+            <h3 style="margin-bottom: 0;">What is RAM?</h3>
+            <p class="w3-justify w3-rest">RAM stands for Random Access Memory. RAM is a critical component for computer functionality. It holds and loads programs and instructions in from permanent storage for a temporary amount of time. RAM is considered volatile memory as its contents are lost upon a power-off situation. ROM or Read-Only Memory is used for things like the BIOS and is considered non-volatile. Generally, having larger capacity RAM installed leads to better overall PC performance.</p>
+         </div>
+      </div>
+      <div class="w3-section w3-margin-left w3-margin-right w3-padding w3-card-4 w3-light-gray">
+         <div class="w3-container w3-center w3-border-top">
+            <img class="w3-center w3-padding-small w3-bottombar w3-border-green" style="width: 50%;" src="imgs/ram2.jpg" alt="RAM1">
+            <div class="w3-container">
+               <h3>Types and Sizes</h3>
+               <h6>Click below for further information</h6>
+               <ul class="w3-ul w3-border-bottom w3-border-top">
+                  <li style="width: 100%;" class="w3-hover-green"><a href="https://en.wikipedia.org/wiki/Dynamic_random-access_memory">DRAM (Dynamic Random Access Memory)</a></li>
+                  <li style="width: 100%;" class="w3-hover-green"><a href="https://en.wikipedia.org/wiki/Synchronous_dynamic_random-access_memory">SDRAM (Synchronous Dynamic Random Access Memory)</a></li>
+                  <li style="width: 100%;" class="w3-hover-green"><a href="https://en.wikipedia.org/wiki/Non-volatile_random-access_memory">NVRAM (Non-Volatile Random Access Memory)</a></li>
+                  <li style="width: 100%;" class="w3-hover-green"><a href="https://en.wikipedia.org/wiki/DDR_SDRAM">DDR (Double Data Rate)</a></li>
+                  <li style="width: 100%;" class="w3-hover-green"><a href="https://en.wikipedia.org/wiki/DDR2_SDRAM">DDR2 (Double Data Rate 2)</a></li>
+                  <li style="width: 100%;" class="w3-hover-green"><a href="https://en.wikipedia.org/wiki/DDR3_SDRAM">DDR3 (Double Data Rate 3)</a></li>
+                  <li style="width: 100%;" class="w3-hover-green"><a href="https://en.wikipedia.org/wiki/DDR4_SDRAM">DDR4 (Double Data Rate 4)</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="w3-padding w3-center w3-text-color-white w3-small"><a href="https://www.w3schools.com/w3css/default.asp">POWERED BY W3.CSS</a>
+      </div>
+      <script>
+         function myFunction() {
+             var x = document.getElementById("dropdown");
+             if (x.className.indexOf("w3-show") == -1) {
+                 x.className += " w3-show";
+             } else { 
+                 x.className = x.className.replace(" w3-show", "");
+             }
+         }
+      </script>	
+   </body>
+</html>

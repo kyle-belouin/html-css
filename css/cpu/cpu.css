@@ -1,0 +1,96 @@
+body {
+	background: url("../../imgs/die.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #043c04;
+    text-align: center;
+    color: #47f5de;
+    font-family: Times, sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	}
+	
+	.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font: bold 84px consolas, sans-serif;
+	text-shadow: 1px 1px 10px #000000, 0 0 1px #000000, 0 0 100px #ffffff;
+	color: rgba(233,251,139,0.6);
+	height: 1080px;
+	}
+	
+	a {
+	text-decoration: none;
+}
+
+	a:hover {
+	text-decoration: none;
+}
+
+.cores {
+	width: 95%;
+}
+
+.cardstitle {
+	text-shadow: 2px 2px 2px #000000;
+	font: bold 36px consolas, sans-serif;
+}
+
+.cardbox {
+	display: flex;
+	justify-content: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+.card {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 50%;
+	text-align: justify;
+	padding: 10px;
+	}
+	
+.list {
+	padding-left: 6px;
+	width: 100%;
+	color: white;
+}
+
+.cpuimg {
+	display: flex;
+	height: 225px;
+	align-content: center;
+	justify-content: center;
+	margin: auto;
+}	
+
+
+li{
+	list-style-type: none;
+	text-align: justify;
+}
+
+.learnmorebox {
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+}
+
+.video {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.video2 {
+	width: 80%;
+	height: 360px;
+	border-style: none;
+}

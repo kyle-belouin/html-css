@@ -1,0 +1,49 @@
+ .navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	color: #ffffff;
+    font: bold 18px arial;
+	text-shadow: 6px 2px 5px #555555;
+	width: 100%;
+	height: 35px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	z-index: 2;
+	position: fixed;
+	}
+	
+.pipe {
+	margin-left: 5px;
+	margin-right: 5px;
+	font: 18px arial;
+}
+	
+.dropdownbutton {
+	display: none;
+}
+	
+a:hover {
+ 	color: #ffffff;
+	text-decoration: none;
+	opacity: 0.5;
+	}
+	
+ .navlinks{
+    color: #ffffff;
+	font: bold 14px arial;
+	text-shadow: 0px 1px 1px #000000;
+}
+
+.button {
+	width: 100%;
+}
+
+.bars {
+	display: none;
+	}
+
+	
+
+	

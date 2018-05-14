@@ -1,0 +1,30 @@
+.header {
+	font-size: 42px;
+	height: inherit;
+}
+
+.header-subtext {
+	font-size: 12px;
+	margin-top: -12px;
+	height: inherit;
+}
+
+.headerdiv {
+	height: 10vh;
+}
+
+.boxcontent {
+	font-size: 26px;
+}
+
+.section1 {
+	height: 39.5vh;
+}
+
+.section2 {
+	height: 39vh;
+}
+
+.footer {
+	height: 10vh;
+}

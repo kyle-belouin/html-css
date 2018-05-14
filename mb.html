@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Motherboards</title>
+	<link rel="stylesheet" href="css/mb/mb.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+	<!--smartphones should not scale -->
+	<meta name="viewport" content="initial-scale=1">
+	<!--Largest screens. -->
+	<link rel="stylesheet" media="screen and (min-width: 2140px) and (max-width: 8000px)" href="css/navbarl.css">
+	<link rel="stylesheet" media="screen and (min-width: 2140px) and (max-width: 8000px)" href="css/mb/large.css">
+	<!--Medium screens. Laptops etc -->
+	<link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1440px)" href="css/mb/medium.css">
+	<!--Mobile. -->
+	<link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 768px)" href="css/mb/small.css">
+	<link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 768px)" href="css/navbarm.css">
+	<style>
+	#navbar {background-color:rgba(255,247,25,0.3);}
+	.card {background-color:rgba(139,131,78,0.3);}
+	</style>
+ </head>
+<body class="w3-animate-opacity">
+	<div id="navbar" class="navbar">
+		<a class="navlinks" href="transitions/trans2.html">Home</a> <p class="pipe">|</p> <a class="navlinks mobilelink" href="transitions/trans3.html">RAM</a> <p class="pipe">|</p> <a class="navlinks mobilelink" href="transitions/trans1.html">GPU</a> <p class="pipe">|</p> <a class="navlinks mobilelink" href="transitions/trans6.html">CPU</a> <p class="pipe">|</p>  <a class="navlinks mobilelink" href="transitions/trans5.html">Storage</a>
+		<div id="dropdowncont" class="w3-dropdown-click">
+		<button class="dropdownbutton" style="background-color: rgba(0,0,0,0); border: 1px solid white; border-right-style:none; border-top-style: none; border-bottom-style: none;" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+		</button>
+			<div id="dropdown" class="w3-dropdown-content" style="width: 100%; text-align: center;">
+				<a href="transitions/trans3.html" class="dropdownlink w3-button">RAM</a>
+				<a href="transitions/trans1.html" class="dropdownlink w3-button">GPU</a>
+				<a href="transitions/trans6.html" class="dropdownlink w3-button">CPU</a>
+				<a href="transitions/trans5.html" class="dropdownlink w3-button">Storage</a>
+			</div>
+		</div>
+	</div>
+	
+    <div class="title">
+		<p class="titletext">MOTHERBOARDS</p>
+	</div>
+    <h2 class="cardstitle">PURPOSE AND FUNCTION</h2>
+    <div class="cardbox">
+        <div class="card">
+			<h3>Overview</h3>
+			<ul class="list">
+                <li>Motherboards provide the physical mounting point of all hardware needed for a computer to function as well as accessory components.</li>
+                <li>The motherboard facilitates the circuitry needed for all the individual components to work together.</li>
+                <li>The motherboard is the heart of the overall computer system. All physical input and output relative to user experience lives on the motherboard.</li>
+                <li>Motherboards of various sizes and capacity exist for various different applications.</li>
+                <li>The motherboard is mounted on the case or box of the computer on stand-offs so it does not touch the case directly. This allows the motherboard to be electrically grounded.</li>
+            </ul>
+			<h3 style="padding-top: 75px;">This video provides a comprehensive overview of motherboards and their functions.</h3><br>
+			<div class="mbbreakdown">
+				<div class="video"><iframe class="video2" src="https://www.youtube.com/embed/PAqB2cb5hSg" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</div>		
+		</div>
+		<div class="card">
+			<h3>Components that connect to a motherboard</h3>
+			<div class="complistcontainer">
+				<div class="complist">
+					<p class="list2">CPU</p>
+					<img class="cardimg" src="imgs/cpu1.png" alt="CPU">
+					<p class="list2">GPU</p>
+					<img class="cardimg" src="imgs/gpusmall.jpg" alt="GPU">
+					<p class="list2">Storage Disks</p>
+					<img class="cardimg" src="imgs/nocover.jpg" alt="HDD no cover">
+					<p class="list2">RAM</p>
+					<img class="cardimg" src="imgs/ram2.jpg" alt="RAM">
+				</div>
+				<div class="complist">
+					<p class="list2">USB devices</p>
+					<img class="cardimg" src="imgs/usb.jpg" alt="USB">
+					<p class="list2">Network Interface Cards (NIC)</p>
+					<img class="cardimg" src="imgs/nic.jpg" alt="NIC">
+					<p class="list2">Audio devices</p>
+					<img class="cardimg" src="imgs/headphone.png" alt="Headphones">
+					<p class="list2">Display devices (if using integrated graphics)</p>
+					<img class="cardimg" src="imgs/monitor.jpg" alt="Monitor">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--MB Slideshow-->
+	<div>
+		<h2 class="w3-center">Motherboard Sizes and Typical Uses</h2>
+		<div class="w3-content w3-display-container">
+
+		<div class="w3-display-container mySlides">
+			<img class="mbimg" src="imgs/mini-itx.jpg" alt="Mini-ITX">
+			<div class="w3-display-center w3-medium w3-container w3-black">
+			<p>- Mini-ITX - <br> 170mm x 170mm | Very small form factor PCs | Media Servers | Ultra-Portable, low-power gaming PCs</p>
+			</div>
+		</div>
+
+		<div class="w3-display-container mySlides">
+			<img class="mbimg" src="imgs/micro-atx.jpg" alt="Micro-ATX">
+			<div class="w3-display-center w3-medium w3-container w3-black">
+			<p>- Micro-ATX - <br> 240mm x 240mm | Medium-sized form factor | General use PCs | Low to Mid-Range gaming capabilities</p>
+			</div>
+		</div>
+
+		<div class="w3-display-container mySlides">
+			<img class="mbimg" src="imgs/atx.jpg" alt="ATX">
+			<div class="w3-display-center w3-medium w3-container w3-black">
+			<p>- ATX - <br> 305 x 244 mm | Full-sized form factor | High performance PCs | Mid-Range to High-end gaming capabilities | Strong Virtualization capabilities</p>
+			</div>
+		</div>
+
+		<div class="w3-display-container mySlides">
+			<img class="mbimg" src="imgs/e-atx.jpg" alt="E-ATX">
+			<div class="w3-display-center w3-medium w3-container w3-black">
+			<p>- Extended-ATX - <br> 305mm x 330 mm | Large form factor | Highest performance consumer PCs | High-end gaming  and multimedia processing capabilities | Consumer Servers/Workstations | Generally capable of having multiple processors.
+		</div>
+	</div>
+	
+	<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+	<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+	</div>
+	
+	<div class="explorecont">
+		<a class="w3-button explore" href="https://en.wikipedia.org/wiki/Computer_form_factor">EXPLORE MORE FORM FACTORS</a>
+	</div>
+	</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("dropdown");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>	
+</body>
+</html>

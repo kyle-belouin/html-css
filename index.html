@@ -1,0 +1,47 @@
+<!--Using 'index' as the page for the loading circle. Couldn't figure out a better way :/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Loading</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/loader.css">
+<style>
+
+body {
+background-color: black;
+}
+</style>
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+</div>
+
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<div id="counter" style="display:none;">1</div>
+    <script>
+        setInterval(function() {
+            var div = document.querySelector("#counter");
+            var count = div.textContent * 1 - 1;
+            div.textContent = count;
+            if (count <= 0) {
+                window.location.href="home.html";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

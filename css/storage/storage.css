@@ -1,0 +1,112 @@
+body {
+	background: url("../../imgs/harddriveblur.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #043c04;
+    text-align: center;
+    color:#19ff00;
+    font-family: Times, sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	}
+	
+	.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font: bold 84px consolas, sans-serif;
+	text-shadow: 1px 1px 10px #000000, 0 0 1px #000000, 0 0 100px #ffffff;
+	color: #2059dc;
+	height: 1080px;
+	}
+	
+	a {
+	text-decoration: none;
+}
+
+	a:hover {
+	text-decoration: none;
+}
+
+.cores {
+	width: 95%;
+}
+
+.cardstitle {
+	text-shadow: 2px 2px 2px #000000;
+	font: bold 36px consolas, sans-serif;
+}
+
+.cardbox {
+	display: flex;
+	justify-content: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+.card {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 50%;
+	text-align: justify;
+	padding: 10px;
+	}
+	
+.list {
+	padding-left: 6px;
+	width: 100%;
+}
+
+.cardimg {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin: auto;
+}	
+
+.hdd {
+	padding-top: 12%;
+	height: auto;
+	width: auto;
+}
+
+li{
+	list-style-type: none;
+	text-align: justify;
+}
+
+.ssd1 {
+	width: 50%;
+}
+
+.ssd2 {
+	height: 25%;
+	width: 50%;
+}
+
+.learnmorebox {
+	display: flex;
+	margin-top: 100px;
+}
+
+.learnmore {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 30%;
+	height: 50px;
+	color: white;
+	margin-bottom: 100px;
+	background-color: #62626a;
+	justify-content: center;
+	align-content: center;
+	font: bold 18px calibri, sans-serif;
+	text-transform: uppercase;
+	padding: 6px;
+	font-size: 14px;
+}
